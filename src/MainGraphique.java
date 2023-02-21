@@ -66,7 +66,7 @@ class MainGraphique
         int compt2=0;
         char c ;
         Plateau p = new Plateau();
-        Fenetre f = new Fenetre ( "Mon jeu d'échec" , 1100 , 800 ) ;
+        Fenetre f = new Fenetre ( "Chess" , 1100 , 800 ) ;
         f.ajouter(new Rectangle(Couleur.GRIS_FONCE, new Point (0,0),800,800,true )) ;
 
         dessinerPlateau(f, p, 'B');
